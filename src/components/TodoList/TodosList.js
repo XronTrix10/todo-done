@@ -35,7 +35,7 @@ const TodosList = ({ tasks }) => {
   });
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto">
       <h1 className="text-3xl mb-4 w-56 font-semibold"># All To-Dos</h1>
       <TopBar
         priority={priority}

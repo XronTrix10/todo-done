@@ -109,7 +109,7 @@ const KanbanBoard = () => {
   };
 
   return (
-    <div>
+    <div className="container mx-auto">
       <div className="flex items-center">
         <h1 className="text-3xl mb-4 w-60 font-semibold"># Kanban Board</h1>
         <div className="mb-4 border rounded-3xl p-1 bg-black cursor-pointer">

@@ -10,7 +10,7 @@ const MobileNav = ({
   setMobileMenuOpen,
 }) => {
   return (
-    <header className="flex h-14 items-center gap-4 h-50 px-4 lg:h-[60px] lg:px-6 mt-16">
+    <header className="flex h-14 items-center gap-4 md:h-10 px-4 md:mt-10 mt-16">
       <Sheet>
         <SheetTrigger asChild>
           <Button variant="outline" size="icon" className="shrink-0 lg:hidden">
